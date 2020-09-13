@@ -21,7 +21,7 @@ public interface ProblemPatternGuessable extends ProblemGuessable {
     String getPattern();
 
     /**
-     * problem을 pattern에 맞게 찍어 맞은 개수를 반환합니다. 문제를 패턴을 통패 찍어 맞추는 개체에게 구현되어야하는 메소드입니다.
+     * problem을 pattern에 맞게 찍어 맞은 개수를 반환합니다. 문제를 패턴을 통해 찍어 맞추는 개체에게 구현되어야하는 메소드입니다.
      * @param problem
      * @param pattern
      * @return 맞은 개수
